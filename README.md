@@ -1,4 +1,4 @@
-# My API Project
+# api
 
 ## Descripción
 Esta API proporciona funcionalidades para la gestión de usuarios y tareas. Está construida con **NestJS** y utiliza **PostgreSQL** como base de datos.
@@ -18,8 +18,8 @@ Esta API proporciona funcionalidades para la gestión de usuarios y tareas. Est�
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto.git
-   cd proyecto
+   git clone https://github.com/andresfc96/prueba.git
+   cd prueba
 
 2. Instalar dependencias:
     ```bash
@@ -45,7 +45,7 @@ Esta API proporciona funcionalidades para la gestión de usuarios y tareas. Est�
 
 4. Construir y ejecutar los contenedores:
     ```bash
-    docker-compose up -d --build
+    docker-compose --env-file .env up -d --build
 
 5. Verificar que esten arriba los contenedores:
     ```bash
